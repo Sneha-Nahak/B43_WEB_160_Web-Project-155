@@ -1,33 +1,10 @@
 import { useEffect, useState } from "react";
-import { getUserDetails } from "../utils/UserUtils";
 import { useNavigate } from "react-router-dom";
-import { fetchProperties } from "../services/properttyService";
+import { fetchProperties } from "../services/propertyService";
 import { FaSearch } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import "../styles/Home.css";
 
-const UserProfile = () => {
-  const [user, setUser] = useState(null);
-
-  useEffect(() => {
-    const fetchUserData = async () => {
-      const userData = await getUserDetails();
-      setUser(userData);
-    };
-
-    fetchUserData();
-  }, []);
-
-  return (
-    <div style={{ display: "flex", justifyContent: "center" }}>
-      {user ? (
-        <h2>Welcome to NestHive, {user.name.split(" ")[0]}!</h2>
-      ) : (
-        <h2>Loading user data...</h2>
-      )}
-    </div>
-  );
-};
 
 const Home = () => {
   const [properties, setProperties] = useState([]);
