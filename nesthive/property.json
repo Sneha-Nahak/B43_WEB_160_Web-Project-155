@@ -1,0 +1,226 @@
+{
+  "properties": {
+    "prop1": {
+      "title": "2 BHK Apartment, Whitefield Main Road",
+      "location": "Whitefield Main Road, Bengaluru",
+      "price": 5000000,
+      "bedrooms": 2,
+      "type": "sale",
+      "image": "https://images.nobroker.in/images/8a9f8b438d7d7b8e018d7db378d129a7/8a9f8b438d7d7b8e018d7db378d129a7_62737_medium.jpg"
+    },
+    "prop2": {
+      "title": "1 BHK Rental, Electronic City Phase 1",
+      "location": "Electronic City Phase 1, Bengaluru",
+      "rent": 15000,
+      "bedrooms": 1,
+      "type": "rent",
+      "image": "https://is1-3.housingcdn.com/01c16c28/043b3f5e8ed5fbc5edfab21b3c0f412c/v0/fs/1_bhk_independent_builder_floor-for-rent-electronic_city-Bangalore-bedroom.jpg"
+    },
+    "prop3": {
+      "title": "3 BHK Villa, JP Nagar 7th Phase",
+      "location": "JP Nagar 7th Phase, Bengaluru",
+      "price": 12000000,
+      "bedrooms": 3,
+      "type": "sale",
+      "image": "https://housing-images.n7net.in/01c16c28/9fdf132baeecb7640e16b6a5d277f35e/v0/small/2_bhk_villa-for-sale-gottigere-Bangalore-others.jpg"
+    },
+    "prop4": {
+      "title": "Studio Apartment, Koramangala 5th Block",
+      "location": "Koramangala 5th Block, Bengaluru",
+      "rent": 10000,
+      "bedrooms": 0,
+      "type": "rent",
+      "image": "https://imagecdn.99acres.com/media1/11447/13/228953138M-1737113113449.jpg"
+    },
+    "prop5": {
+      "title": "4 BHK Independent House, Malleswaram West",
+      "location": "Malleswaram West, Bengaluru",
+      "price": 25000000,
+      "bedrooms": 4,
+      "type": "sale",
+      "image": "https://is1-2.housingcdn.com/01c16c28/12e52fc605ef0e0e8ab5ea0cb78a5981/v0/fs/3_bhk_independent_house-for-sale-malleswaram-Bangalore-others.jpg"
+    },
+    "prop6": {
+      "title": "2 BHK Rental, Indiranagar 100 Feet Road",
+      "location": "Indiranagar 100 Feet Road, Bengaluru",
+      "rent": 22000,
+      "bedrooms": 2,
+      "type": "rent",
+      "image": "https://housing-images.n7net.in/01c16c28/8675c977f27c1e2cd833a8eb4acc8522/v0/small/2_bhk_independent_house-for-rent-indira_nagar-Bangalore-hall.jpg"
+    },
+    "prop7": {
+      "title": "3 BHK Apartment, Whitefield Hope Farm",
+      "location": "Whitefield Hope Farm, Bengaluru",
+      "price": 7500000,
+      "bedrooms": 3,
+      "type": "sale",
+      "image": "https://images.nobroker.in/images/8a9f858393d948130193d96afdd50a96/8a9f858393d948130193d96afdd50a96_46892_98084_medium.jpg"
+    },
+    "prop8": {
+      "title": "2 BHK Rental, Electronic City Phase 2",
+      "location": "Electronic City Phase 2, Bengaluru",
+      "rent": 18000,
+      "bedrooms": 2,
+      "type": "rent",
+      "image": "https://is1-3.housingcdn.com/01c16c28/34974845d2f841252edb6e74af084c4f/v0/fs/2_bhk_independent_builder_floor-for-rent-electronic_city_phase_ii-Bhovi+Palya-hall.jpg"
+    },
+    "prop9": {
+      "title": "4 BHK Villa, JP Nagar 9th Phase",
+      "location": "JP Nagar 9th Phase, Bengaluru",
+      "price": 18000000,
+      "bedrooms": 4,
+      "type": "sale",
+      "image": "https://img.staticmb.com/mbphoto/property/cropped_images/2022/Dec/29/Photo_h180_w240/64860471_7_hatsAppImage20221229at11.30.13AM_180_240.jpeg"
+    },
+    "prop10": {
+      "title": "1 BHK Apartment, Koramangala 8th Block",
+      "location": "Koramangala 8th Block, Bengaluru",
+      "rent": 13000,
+      "bedrooms": 1,
+      "type": "rent",
+      "image": "https://is1-2.housingcdn.com/01c16c28/1736764736036_6fbd5116ea3efb065fed0a07501d2a02/v0/fs/1_bhk_independent_builder_floor-for-rent-koramangala-Bangalore-bedroom.jpg"
+    },
+    "prop11": {
+      "title": "3 BHK Independent House, Malleswaram Circle",
+      "location": "Malleswaram Circle, Bengaluru",
+      "price": 15000000,
+      "bedrooms": 3,
+      "type": "sale",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmAFQqCy43LdRoqiwsXZV7OKm4vxNjsMpmiQ&s"
+    },
+    "prop12": {
+      "title": "1 BHK Rental, Indiranagar Double Road",
+      "location": "Indiranagar Double Road, Bengaluru",
+      "rent": 16000,
+      "bedrooms": 1,
+      "type": "rent",
+      "image": "https://housing-images.n7net.in/01c16c28/4149064d800f56cd085200598778b736/v0/medium/1_bhk_apartment-for-rent-indira_nagar-Bangalore-bedroom.jpg"
+    },
+    "prop13": {
+      "title": "2 BHK Apartment, Whitefield ITPL",
+      "location": "Whitefield ITPL, Bengaluru",
+      "price": 6000000,
+      "bedrooms": 2,
+      "type": "sale",
+      "image": "https://is1-2.housingcdn.com/01c16c28/dc09f4bea0a02bda2e4e9a3555aa8f9a/v0/fs/2_bhk_apartment-for-rent-whitefield-Bangalore-others.jpg"
+    },
+    "prop14": {
+      "title": "2 BHK Rental, Electronic City Neeladri Road",
+      "location": "Electronic City Neeladri Road, Bengaluru",
+      "rent": 20000,
+      "bedrooms": 2,
+      "type": "rent",
+      "image": "https://is1-2.housingcdn.com/01c16c28/0889fea0527c8354de90f920d7b41218/v0/fs/2_bhk_independent_builder_floor-for-rent-electronic_city-Bangalore-hall.jpg"
+    },
+    "prop15": {
+      "title": "5 BHK Villa, JP Nagar 6th Phase",
+      "location": "JP Nagar 6th Phase, Bengaluru",
+      "price": 22000000,
+      "bedrooms": 5,
+      "type": "sale",
+      "image": "https://www.bengaluruproperties.com/projectsgallery/665/salepageimages/Purva_Tiara_1.jpg"
+    },
+    "prop16": {
+      "title": "Studio Apartment, Koramangala 6th Block",
+      "location": "Koramangala 6th Block, Bengaluru",
+      "rent": 11000,
+      "bedrooms": 0,
+      "type": "rent",
+      "image": "https://is1-2.housingcdn.com/01c16c28/09979799cffa42d64be6f13fb0554eb5/v0/fs/1_rk_independent_house-for-rent-koramangala-Bangalore-hall.jpg"
+    },
+    "prop17": {
+      "title": "4 BHK Independent House, Malleswaram 18th Cross",
+      "location": "Malleswaram 18th Cross, Bengaluru",
+      "price": 19000000,
+      "bedrooms": 4,
+      "type": "sale",
+      "image": "https://images.nobroker.in/images/8a9f8d8a94efdc170194efdf85ca0021/8a9f8d8a94efdc170194efdf85ca0021_42035_894663_medium.jpg"
+    },
+    "prop18": {
+      "title": "3 BHK Rental, Indiranagar CMH Road",
+      "location": "Indiranagar CMH Road, Bengaluru",
+      "rent": 25000,
+      "bedrooms": 3,
+      "type": "rent",
+      "image": "https://housing-images.n7net.in/01c16c28/601fe435ceb2b340ae04569a67abfdee/v0/small/3_bhk_apartment-for-rent-indira_nagar-Bangalore-hall.jpg"
+    },
+    "prop19": {
+      "title": "1 BHK Apartment, Whitefield Kadugodi",
+      "location": "Whitefield Kadugodi, Bengaluru",
+      "price": 4000000,
+      "bedrooms": 1,
+      "type": "sale",
+      "image": "https://is1-3.housingcdn.com/01c16c28/c0d65b0e17b60082b7dffeb3c825bdd5/v0/fs/1_bhk_apartment-for-rent-kadugodi_bangalore-Bangalore-living_room.jpg"
+    },
+    "prop20": {
+      "title": "3 BHK Rental, Electronic City Hosur Road",
+      "location": "Electronic City Hosur Road, Bengaluru",
+      "rent": 23000,
+      "bedrooms": 3,
+      "type": "rent",
+      "image": "https://img.staticmb.com/mbimages/project/Photo_h310_w462/2024/04/25/Project-Photo-28-Ajmera-Infinity-Bangalore-5023996_867_1156_310_462.jpg"
+    }
+  },
+  "users": {
+    "user1": {
+      "name": "John Doe",
+      "type": "buyer",
+      "saved": ["prop1", "prop3", "prop7", "prop15"],
+      "email": "john.doe@example.com"
+    },
+    "user2": {
+      "name": "Jane Smith",
+      "type": "owner",
+      "listed": ["prop2", "prop4", "prop8", "prop10"],
+      "email": "jane.smith@example.com"
+    },
+    "user3": {
+      "name": "David Lee",
+      "type": "tenant",
+      "saved": ["prop6", "prop12", "prop18", "prop20"],
+      "email": "david.lee@example.com"
+    },
+    "user4": {
+      "name": "Sophia Patel",
+      "type": "buyer",
+      "saved": ["prop5", "prop9", "prop13"],
+      "email": "sophia.patel@example.com"
+    },
+    "user5": {
+      "name": "Ethan Thompson",
+      "type": "buyer",
+      "saved": ["prop2", "prop4", "prop18"],
+      "email": "ethan.thompson@example.com"
+    },
+    "user6": {
+      "name": "Rajesh Kumar",
+      "type": "owner",
+      "listed": ["prop1", "prop7"],
+      "email": "rajesh.kumar@example.com"
+    },
+    "user7": {
+      "name": "Emily Watson",
+      "type": "tenant",
+      "saved": ["prop10", "prop12"],
+      "email": "emily.watson@example.com"
+    },
+    "user8": {
+      "name": "Mohammed Ali",
+      "type": "buyer",
+      "saved": ["prop9", "prop11", "prop15"],
+      "email": "mohammed.ali@example.com"
+    },
+    "user9": {
+      "name": "Liam Nelson",
+      "type": "owner",
+      "listed": ["prop5", "prop17"],
+      "email": "liam.nelson@example.com"
+    },
+    "user10": {
+      "name": "Ava Martinez",
+      "type": "tenant",
+      "saved": ["prop6", "prop8", "prop16"],
+      "email": "ava.martinez@example.com"
+    }
+  }
+}

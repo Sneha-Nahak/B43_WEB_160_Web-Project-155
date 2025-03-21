@@ -1,0 +1,185 @@
+/* General container for the owner section */
+.owner-card {
+    padding: 2rem;
+  
+    display: flex;
+    justify-content: center;
+}
+
+/* Owner list container */
+.owner-list {
+    background: white;
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+    list-style: none;
+    width: 80%;
+    max-width: 100vw;
+}
+
+/* Individual owner section */
+.owner-section {
+    background: white;
+    padding: 1.8rem;
+    border-radius: 14px;
+    margin-bottom: 30px;
+    box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.1);
+    position: relative;
+    border-left: 6px solid var(--owner-color);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Owner title styling */
+.owner-title {
+    font-size: 1.5rem;
+    padding: 14px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 18px;
+    color: var(--owner-title-color);
+    background: var(--owner-title-bg);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+    letter-spacing: 0.6px;
+}
+
+/* Alternating dynamic colors */
+.owner-section:nth-child(odd) {
+    --owner-color: #4a90e2;
+    --owner-title-bg: #4a90e2; /* Cool blue */
+    --owner-title-color: #ffffff;
+}
+
+.owner-section:nth-child(even) {
+    --owner-color: #50c878;
+    --owner-title-bg: #50c878; /* Soft green */
+    --owner-title-color: #ffffff;
+}
+
+/* Scroll container */
+.scroll-container-owner {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: relative;
+    padding-bottom: 1rem;
+
+    /* Hide scrollbar */
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge */
+}
+
+.scroll-container-owner::-webkit-scrollbar {
+    display: none; /* Chrome, Safari */
+}
+
+/* Property list inside scrollable area */
+.property-list-owner {
+    display: flex;
+    gap: 1.2rem;
+    padding: 10px;
+}
+
+/* Property card styling */
+.property-card-owner {
+    min-width: 250px;
+    padding: 1.2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* Property card text */
+.property-card-owner h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.owner-sect-img{
+    width: 100%;
+    height: 220px; /* Fixed height for consistency */
+    object-fit: cover; /* Ensures images do not stretch */
+    border-radius: 10px 10px 0 0;
+}
+
+.property-card-owner p {
+    font-size: 0.95rem;
+    color: #555;
+    margin: 4px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Hover effect */
+.property-card-owner:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Smooth scrolling animation */
+@keyframes smoothScroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.property-list-owner {
+    animation: smoothScroll 12s linear infinite;
+}
+
+/* Property details container */
+.property-details-owner {
+    max-width: 650px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border-radius: 14px;
+    box-shadow: 4px 8px 14px rgba(0, 0, 0, 0.15);
+    background: white;
+    text-align: left;
+}
+
+/* Property details title */
+.property-details-owner h2 {
+    color: #4a90e2;
+    margin-bottom: 14px;
+    font-size: 1.6rem;
+}
+
+/* Property details text */
+.property-details-owner p {
+    font-size: 1.15rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+/* Back button with better styling */
+.back-btn {
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 12px 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.back-btn:hover {
+    background: #357ab7;
+    transform: scale(1.05);
+}

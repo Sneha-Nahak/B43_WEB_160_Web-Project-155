@@ -1,0 +1,184 @@
+/* General container for the owner section */
+.buyer-card {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* Owner list container */
+.buyer-list {
+  background: white;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  list-style: none;
+  width: 80%;
+  max-width: 100vw;
+}
+
+/* Individual owner section */
+.buyer-section {
+  background: white;
+  padding: 1.8rem;
+  border-radius: 14px;
+  margin-bottom: 30px;
+  box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.1);
+  position: relative;
+  border-left: 6px solid var(--buyer-color);
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Owner title styling */
+.buyer-title {
+  font-size: 1.5rem;
+  padding: 14px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: var(--buyer-title-color);
+  background: var(--buyer-title-bg);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.12);
+  letter-spacing: 0.6px;
+}
+
+  /* Dynamic Buyer Colors */
+  .buyer-section:nth-child(odd) {
+    --buyer-color: #6c63ff;
+    --buyer-title-bg: #6c63ff;
+    --buyer-title-color: #ffffff; /* White text for dark background */
+  }
+  
+  .buyer-section:nth-child(even) {
+    --buyer-color: #ff6b6b;
+    --buyer-title-bg: #ff6b6b;
+    --buyer-title-color: #ffffff; /* White text for dark background */
+  }
+
+/* Scroll container */
+.scroll-container-buyer {
+  display: flex;
+  overflow-x: auto;
+  white-space: nowrap;
+  position: relative;
+  padding-bottom: 1rem;
+
+  /* Hide scrollbar */
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+}
+
+.scroll-container-buyer::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+/* Property list inside scrollable area */
+.property-list-buyer {
+  display: flex;
+  gap: 1.2rem;
+  padding: 10px;
+}
+
+/* Property card styling */
+.property-card-buyer {
+  min-width: 250px;
+  padding: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Property card text */
+.property-card-buyer h4 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #333;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.buyer-sect-img{
+  width: 100%;
+  height: 220px; /* Fixed height for consistency */
+  object-fit: cover; /* Ensures images do not stretch */
+  border-radius: 10px 10px 0 0;
+}
+
+.property-card-buyer p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 4px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Hover effect */
+.property-card-buyer:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Smooth scrolling animation */
+@keyframes smoothScroll {
+  from {
+      transform: translateX(0);
+  }
+  to {
+      transform: translateX(-50%);
+  }
+}
+
+.property-list-buyer {
+  animation: smoothScroll 12s linear infinite;
+}
+
+/* Property details container */
+.property-details-buyer {
+  max-width: 650px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 14px;
+  box-shadow: 4px 8px 14px rgba(0, 0, 0, 0.15);
+  background: white;
+  text-align: left;
+}
+
+/* Property details title */
+.property-details-buyer h2 {
+  color: #4a90e2;
+  margin-bottom: 14px;
+  font-size: 1.6rem;
+}
+
+/* Property details text */
+.property-details-buyer p {
+  font-size: 1.15rem;
+  margin-bottom: 10px;
+  color: #444;
+}
+
+/* Back button with better styling */
+.back-btn {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.back-btn:hover {
+  background: #357ab7;
+  transform: scale(1.05);
+}

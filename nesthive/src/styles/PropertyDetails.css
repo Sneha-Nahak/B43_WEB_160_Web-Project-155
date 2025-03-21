@@ -1,0 +1,47 @@
+.property-details-container-org {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f8f9fa;
+    margin-bottom: 2rem;
+  }
+  
+  .property-card-details-org {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 2rem;
+    max-width: 400px;
+  }
+  
+  .property-title-org {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .property-message-org {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .back-button-org {
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+  }
+  
+  .back-button-org:hover {
+    background: #0056b3;
+  }
+  
