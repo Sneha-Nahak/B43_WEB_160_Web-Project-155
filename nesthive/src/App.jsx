@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
-import Buyers from "./pages/buyers";
+import Buyers from "./pages/Buyers";
 import Tenants from "./pages/Tenants";
 import Owners from "./pages/Owners";
 import Login from "./pages/Login"; 
