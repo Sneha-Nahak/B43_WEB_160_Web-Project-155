@@ -15,10 +15,10 @@ The **Property Listing Platform** is a fully frontend-focused web application de
 ![Signup Screenshot](Screenshots/login.png)
 
 ### Homepage
-![Homepage Screenshot](screenshots/homepage.png)
+![Homepage Screenshot](Screenshots/homepage.png)
 
 ### Property Details Page
-![Property Details](screenshots/property-details.png)
+![Property Details](Screenshots/property-details.png)
 
 ### Buyers/Buyer-details Page
 ![Buyer Screenshort](Screenshots/for-buyers.png)
@@ -33,13 +33,13 @@ The **Property Listing Platform** is a fully frontend-focused web application de
 ![Owner-details Screenshot](Screenshots/owner-details.png)
 
 ### Privacy & Policy Page
-![Privacy&Policy Screenshot](screenshots/privacy-policy.png)
+![Privacy&Policy Screenshot](Screenshots/privacy-policy.png)
 
 ### Term of Service Page
-![Privacy&Policy Screenshot](screenshots/terms-of-service.png)
+![Privacy&Policy Screenshot](Screenshots/terms-of-service.png)
 
 ### Footer Section
-![Footer-Section Screenshot](screenshots/footer.png)
+![Footer-Section Screenshot](Screenshots/footer.png)
 
 ## Features
 
