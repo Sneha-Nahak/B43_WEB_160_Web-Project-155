@@ -12,7 +12,7 @@ The **Property Listing Platform** is a fully frontend-focused web application de
 
 ### Login/Signup Page
 ![Login Screenshort](Screenshots/login.png)
-![Signup Screenshot](Screenshots/login.png)
+![Signup Screenshot](Screenshots/signup.png)
 
 ### Homepage
 ![Homepage Screenshot](Screenshots/homepage.png)
@@ -65,7 +65,7 @@ The **Property Listing Platform** is a fully frontend-focused web application de
 - Multiple view modes: grid view, list view, and map view.
 
 ### Video Demo
-[![Watch the Demo](https://drive.google.com/file/d/1li7VaC0f05w7QY4KCEz1DpB3NU8DJiBb/view?usp=sharing)]
+[![Watch the Demo](Screenshots/login.png)(https://drive.google.com/file/d/1li7VaC0f05w7QY4KCEz1DpB3NU8DJiBb/view?usp=sharing)]
 
 ## Live Demo
 Check out the live demo:  
