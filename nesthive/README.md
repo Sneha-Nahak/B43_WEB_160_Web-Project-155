@@ -69,7 +69,7 @@ The **Property Listing Platform** is a fully frontend-focused web application de
 
 ## Live Demo
 Check out the live demo:  
-[Netlify Link](https://yourwebsite.com)
+[Netlify Link](https://67dd58cbdb0a6f0d94fde3e6--animated-dasik-6ee000.netlify.app/)
 
 ## Key Goals
 - **Seamless Property Discovery**: Quick and efficient property browsing.
